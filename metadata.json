@@ -1,0 +1,6 @@
+{
+  "name": "DeadTime",
+  "description": "Make your spare minutes count. Turn small pockets of free time into progress, rest, or intentional recharge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

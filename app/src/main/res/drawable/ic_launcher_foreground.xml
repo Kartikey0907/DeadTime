@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Hourglass Outer Frame -->
+    <path
+        android:pathData="M37,30 L71,30 C72.1,30 73,30.9 73,32 L73,35 C73,36.1 72.1,37 71,37 L65,37 C61,43 57,48 57,54 C57,60 61,65 65,71 L71,71 C72.1,71 73,71.9 73,73 L73,76 C73,77.1 72.1,78 71,78 L37,78 C35.9,78 35,77.1 35,76 L35,73 C35,71.9 35.9,71 37,71 L43,71 C47,65 51,60 51,54 C51,48 47,43 43,37 L37,37 C35.9,37 35,36.1 35,35 L35,32 C35,30.9 35.9,30 37,30 Z"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+    
+    <!-- Top chamber sand with amber/gold gradient -->
+    <path
+        android:pathData="M44,40 L64,40 C61.5,45 57,50 54,52 C51,50 46.5,45 44,40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="40"
+                android:endX="54"
+                android:endY="52"
+                android:type="linear">
+                <item android:color="#FBBF24" android:offset="0.0" />
+                <item android:color="#F59E0B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Falling sand stream -->
+    <path
+        android:pathData="M54,52 L54,64"
+        android:strokeWidth="2.5"
+        android:strokeColor="#F59E0B"
+        android:strokeLineCap="round" />
+
+    <!-- Bottom chamber accumulated sand -->
+    <path
+        android:pathData="M44,68 C47,65 61,65 64,68 L67,71 L41,71 Z"
+        android:fillColor="#FBBF24" />
+
+    <!-- Sparkling star of reclaimed time on top-right -->
+    <path
+        android:pathData="M74,33 L75.5,37.5 L80,39 L75.5,40.5 L74,45 L72.5,40.5 L68,39 L72.5,37.5 Z"
+        android:fillColor="#60A5FA" />
+
+    <!-- Small sparkle on bottom-left -->
+    <path
+        android:pathData="M34,65 L35,68 L38,69 L35,70 L34,73 L33,70 L30,69 L33,68 Z"
+        android:fillColor="#A78BFA" />
+</vector>
